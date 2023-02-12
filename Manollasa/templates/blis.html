@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+
+        <img src="{% static 'assets/img/8.jpg' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>
+          <a href="/register/"> <button class="btn btn-success my-4"> Apply Now</button></a>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">BLIS stands for Bachelors of Library Science and Information is a UG level degree program that is completed in a duration of 1 year. Through this course, students become enough capable of managing and administrating the library. There are two study semesters within the complete duration. Mainly the preservation and maintenance of libraries are concerned with the learning of this course.Most of the subjects included in the BLIS syllabus are Library Classification, Library Cataloguing, Patriarchy and General Inequalities, Computer Applications in LICs, Library, and Society, Information sources and Services, etc. There are multiple top public and private colleges where one can study BLIS degree courses. Most probably the admission process for BLIS starts every year in May.
+        </p>
+        <h3>Eligibility</h3>
+        <ul align="left">
+          <li>The candidate must complete his graduation in any discipline from a recognized university.</li>
+          <li>The candidates must have a minimum of 50-55% marks in his/her graduation/</li>
+          
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ba/"><img src="{% static 'assets/img/course-single.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bsw"><img src="{% static 'assets/img/BOOSE.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                    <h4> BOSSE</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ma"> <img src="{% static 'assets/img/11.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> MA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+

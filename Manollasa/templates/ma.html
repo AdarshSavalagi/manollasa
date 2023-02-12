@@ -1,0 +1,90 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+
+        <img src="{% static 'assets/img/11.jpg' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>
+          <a href="/register/"> <button class="btn btn-success my-4"> Apply Now</button></a>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">MA or Master of Arts is a postgraduate programme in arts. MA can be pursued by students after completion of their bachelor's degree. The degree is offered in various specialisations at various colleges and universities in India and abroad. It is a two year duration course and can be pursued by candidates who possess a graduation degree. The degree can be pursued as a full-time course, part-time course, correspondence or distance mode.
+        </p>
+        <h3>Eligibility</h3>
+        <ul align="left">
+          <li>Bachelor degree (preferably arts) holders of a minimum 3 or 4-year duration with its equivalent (10+2+3 or 10+2+4). The degree should be from a university that is recognized by the UGC (University Grants Commission) of India.</li>
+          <li>A minimum of 55% aggregate at graduation level.</li>
+          <li>
+            Candidates pursuing a three-year degree programme must clear all papers topics from 1st to 4th semester, while applicants pursuing a four-year degree programme must have attained passing marks in all the topics from the first to the sixth semester.
+          </li>
+          
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ba/"><img src="{% static 'assets/img/course-single.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bsw"><img src="{% static 'assets/img/BOOSE.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                    <h4> BOSSE</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/mliss"> <img src="{% static 'assets/img/8.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> MLIS</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+

@@ -1,0 +1,549 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Manollasa</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon.ico' %}" rel="icon">
+  <link href="{% static 'assets/img/apple-touch-icon.png' %}" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/animate.css/animate.min.css' %}" rel="stylesheet">
+  <link href="{% static '/assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static '/assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static '/assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static '/assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+  <link href="{% static '/assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="{% static '/assets/css/style.css'%}" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: BizPage - v5.11.0
+  * Template URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center header-transparent">
+    <div class="container-fluid">
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-xl-11 d-flex align-items-center justify-content-between">
+          <h1 class="logo"><a href="/">Manollasa</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo"><img src="static/assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#portfolio">Services</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+
+  <!-- ======= hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <div id="heroCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="5000">
+
+        <ol id="hero-carousel-indicators" class="carousel-indicators"></ol>
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active" style="background-image: url(static/assets/img/hero-carousel/1.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Welcome to Manollasa</h2>
+                <p class="animate__animated animate__fadeInUp">We are a dedicated online platform aimed at providing
+                  quality education to learners from all over the world. Our goal is to make education accessible and
+                  affordable for everyone, regardless of location, background, or financial status. </p>
+                <p class="animate__animated animate__fadeInUp">Our platform offers a wide range of courses, covering
+                  various subjects and skill levels, taught by experienced educators and industry professionals. Whether
+                  you are looking to enhance your career prospects, pursue a personal interest, or simply gain new
+                  knowledge, we have something for everyone.</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get
+                  Started</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(static/assets/img/hero-carousel/2.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Our Approach to Education</h2>
+                <p class="animate__animated animate__fadeInUp">At Manollasa, we believe in a personalized and
+                  interactive approach to learning. Our courses are designed to be engaging and relevant, ensuring that
+                  students are able to retain and apply what they have learned.
+                  <br>
+                  We also understand the importance of flexibility and accessibility. That's why our courses are
+                  available 24/7 and can be taken at your own pace. Whether you're a busy professional, a stay-at-home
+                  parent, or a student, you can fit education into your schedule.
+                </p>
+                <a href="#portfolio" class="btn-get-started scrollto animate__animated animate__fadeInUp">Course
+                  catalog</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image: url(static/assets/img/hero-carousel/3.jpg)">
+            <div class="carousel-container">
+              <div class="container">
+                <h2 class="animate__animated animate__fadeInDown">Join Our Community</h2>
+                <p class="animate__animated animate__fadeInUp">Join our growing community of learners and educators
+                  today! Our platform offers a supportive and inclusive environment where students can connect with each
+                  other and share their experiences.
+                  <br>
+                  Sign up for an account and start your learning journey with [Website Name]. We're excited to have you
+                  onboard!
+                </p>
+                <a href="#contact" class="btn-get-started scrollto animate__animated animate__fadeInUp">join us</a>
+              </div>
+            </div>
+          </div>
+
+
+
+
+        </div>
+
+        <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+        </a>
+
+        <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+          <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+        </a>
+
+      </div>
+    </div>
+  </section><!-- End Hero Section -->
+
+  <main id="main">
+
+    <div align="center" class="my-3 img">
+      <img src="static/assets/img/strip.gif" width="80%" height="180px" alt="">
+    </div>
+    <!-- ======= About Us Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3>About ODL</h3>
+          <p align="justify">Distance Education, is a field of education that focuses on the pedagogy and andragogy,
+            technology, and instructional systems design that aims to deliver education to students who are not
+            physically "on site".
+            Distance Education “is a process to create and provide access to learning when the source of information and
+            the learners are separated by time and distance, or both.” In other words, distance learning is the process
+            of creating an educational experience of equal qualitative value for the learner to best suit their needs
+            outside the classroom.
+            Distance education courses that require a physical on-site presence for any reason including the taking of
+            examinations is considered to be a hybR&D or blended course of study.</p>
+        </header>
+
+        <div class="row about-cols">
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="about-col">
+              <div class="img">
+                <img src="static/assets/img/about-mission.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="bi bi-bar-chart"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Mission</a></h2>
+              <p>
+                To deliver affordable and accessible quality Education for augmenting the academic value and skills of
+                higher education aspirants.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="about-col">
+              <div class="img">
+                <img src="static/assets/img/about-plan.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="bi bi-brightness-high"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Plan</a></h2>
+              <p>
+                The main elements include physical separation of teachers and students during instruction and the use of
+                technologies to facilitate student-teacher communication.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="about-col">
+              <div class="img">
+                <img src="static/assets/img/about-vision.jpg" alt="" class="img-fluid">
+                <div class="icon"><i class="bi bi-calendar4-week"></i></div>
+              </div>
+              <h2 class="title"><a href="#">Our Vision</a></h2>
+              <p>
+                Creation and establishment of versatile and competent Open & Distance Learning system to cater to the
+                educational aspirations of the society.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End About Us Section -->
+
+
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h3 class="section-title">Our Services</h3>
+        </header>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="100"">
+      <div class=" col-lg-12">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">Courses</li>
+            <li data-filter=".filter-card">Medical Consultancies</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/bba/"><img src="static/assets/img/3.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> BBA</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/ba/"> <img src="static/assets/img/course-single.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> BA</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/bcom/"><img src="static/assets/img/2.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> BCOM</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/blis/"><img src="static/assets/img/8.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> BLIS</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/ma/"> <img src="static/assets/img/11.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> MA</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/mba/"><img src="static/assets/img/10.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> MBA</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/mliss/"> <img src="static/assets/img/8.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> MLIS</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/bsw/"> <img src="static/assets/img/4.png" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4> BSW</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/bsc/"> <img src="static/assets/img/9.png" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4>BSC</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/BOSSE"> <img src="static/assets/img/BOOSE.jpg" class="img-fluid" alt=""></a>
+            </figure>
+
+            <div class="portfolio-info">
+              <h4>BOSSE</h4>
+              <p>Course</p>
+            </div>
+          </div>
+        </div>
+        <!-- this is end -->
+
+
+
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <figure>
+              <a href="/Medical"> <img src="static/assets/img/mc.jpg" class="img-fluid" alt=""></a>
+
+            </figure>
+
+            <div class="portfolio-info">
+              <h4>Medical Consultancies</h4>
+              <p>health Consultancies</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h3>Contact Us</h3>
+          <p></p>
+        </div>
+
+        <div class="row contact-info">
+
+          <div class="col-md-4">
+            <div class="contact-address">
+              <i class="bi bi-geo-alt"></i>
+              <h3>Address</h3>
+              <address>
+                Manollasa ODL Education
+                Shree Krupe,Kalikamba Street,Santhebennur<br>
+                Davanagere(DIST.)-577 552 Karnataka, India <br>
+              </address>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-phone">
+              <i class="bi bi-phone"></i>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+155895548855">9663875378, 9113281195</a></p>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="contact-email">
+              <i class="bi bi-envelope"></i>
+              <h3>Email</h3>
+              <p><a href="manollasadisedu@gmail.com">manollasadisedu@gmail.com</a></p>
+            </div>
+          </div>
+
+        </div>
+        <div class="form">
+          <form action="/#contact" method="post" role="form" class="php-email-form">
+            {% csrf_token %}
+
+            <div class="row">
+              <div class="form-group col-md-6">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+            </div>
+            <div class="my-3">
+              {% if messages %}
+              <ul class="messages">
+                {% for message in messages %}
+                <li {% if message.tags %} class=" {{ message.tags }} " {% endif %}> {{ message }} </li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <h3>Manollasa</h3>
+            <p>Our platform offers a wide range of courses, covering various subjects and skill levels, taught by
+              experienced educators and industry professionals. Whether you are looking to enhance your career
+              prospects, pursue a personal interest, or simply gain new knowledge, we have something for everyone.</p>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Services</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              Manollasa ODL Education <br>
+              JSS Karnataka Open School<br>
+              Shree Krupe,Kalikamba Street,Santhebennur<br>
+              Davanagere(DIST.)-577 552 Karnataka, India <br>
+              <strong>Phone:</strong> 9663875378, 9113281195<br>
+              <strong>Email:</strong>manollasadisedu@gmail.com<br>
+            </p>
+
+            <div class="social-links">
+              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+            </div>
+
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-newsletter">
+            <h4>Our Newsletter</h4>
+            <p>Stay updated with the latest news, trends and exclusive offers! Subscribe to our newsletter now and never
+              miss out on the action. Get ready for a seamless and informative experience, delivered straight to your
+              inbox.</p>
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong>Manollasa</strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+  <!-- Uncomment below i you want to use a preloader -->
+  <!-- <div id="preloader"></div> -->
+
+  <!-- Vendor JS Files -->
+  <script src="static/assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="static/assets/vendor/aos/aos.js"></script>
+  <script src="static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="static/assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="static/assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="static/assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="static/assets/vendor/waypoints/noframework.waypoints.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="static/assets/js/main.js"></script>
+
+</body>
+
+</html>

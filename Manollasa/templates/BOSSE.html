@@ -1,0 +1,108 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+
+        <img src="{% static 'assets/img/BOOSE.jpg' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>     <a href="/register/"> <button class="btn btn-success my-4"> Apply Now</button></a>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">The Board of Open Schooling and Skill Education (BOSSE), Sikkim, is an open schooling board that aims to cater to the varied academic needs of the divergent group of students up to pre-degree level including Secondary/Senior Secondary, skill and vocational education. BOSSE is open schooling education board in Sikkim, was established under Act No. 14 of 2020 of the Sikkim Legislative Assembly, passed on 21-09-2020, according to the Sikkim Act 2020 to promulgate and disseminate the open schooling education at state & national level. BOSSE has been granted Equivalence by AIU (Association of Indian Universities) for purposes of Higher Education and Employment. This implies that BOSSE pass outs are eligible to take admission in all Universities, Colleges and Higher Education Institutes throughout the country as well as abroad. BOSSE has also been recognized by NIOS (National Institute of Open Schooling), Ministry of Education, Govt. of India as an open schooling Board. Thus the certificates of BOSSE are recognized at par with other Boards – both national as well as State level Boards of School Education. The Board of Open Schooling and Skill Education (BOSSE) aims to uplift and strengthen open schooling education and create pathways to higher studies across the nation With a flexible education system, combining academic and vocational programmes, the mission of BOSSE is to universalize education and establish equality and justice in society. The Board of Open Schooling and Skill Education (BOSSE) provides opportunities to interested learners to choose the following courses/ programmes through open and distance learning mode. Secondary Programme Senior Secondary Programmes Skills and Vocational Education Programme
+        </p>
+        <h3>Vision</h3>
+        <p align="left">
+            To contribute to the universalisation of school education, by providing inclusive flexible, quality school education for life and livelihood, imparting vocational skills along with academic education for sustainable development of nation and society.
+        </p>
+        <h3>Admission</h3>
+        <p align="left">
+            Students may take admission through Admission Centres of BOSSE or take online admission by visiting the website: www.bosse.ac.in. Learners who seek admission in BOSSE for Secondary / Sr. Secondary / Skill and Vocation education; are required to submit original scanned copies of documents mentioned below, while registering for admission.
+        </p>
+        <ul align="left">
+          <li>Valid Identity Proof (Adhaar Card / Passport / Ration Card/ PAN Card) .</li>
+          <li>Valid Proof of Date of Birth (Passport/ School Leaving Certificate / Transfer Certificate/ Adhaar Card on which DOB is mentioned).</li>
+          <li>
+            Valid Proof of Residence
+          </li>
+          <li>Domicile Certificate for students of Sikkim.</li>
+          <li>
+            Proof of completing 14 years of age for Secondary Programme
+          </li>
+          <li>Secondary/Class X Certificate in case of Senior Secondary Programme.
+
+          </li>
+          <li>
+            Self attested copy of Caste Certificate in case of SC/ST/OBC
+          </li>
+          <li>
+            Disability Certificate (in case a leaner has any kind of disability)
+          </li>
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ba/"><img src="{% static 'assets/img/course-single.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bsw/"> <img src="{% static 'assets/img/4.png' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> BSW</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/mliss"> <img src="{% static 'assets/img/8.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> MLIS</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+

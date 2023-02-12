@@ -1,0 +1,89 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+
+        <img src="{% static 'assets/img/8.jpg' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>
+      <button class="btn btn-success my-4"> Apply Now</button>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">Master of Library and Information Science includes the study of subjects like Planning and Management, Computer Basics and Applications, Library Management, Research Methodology, Statistical Techniques and alike. The course duration is usually a year but you can complete this course within a maximum time span of 3 years. Admission to MLibISc is provided on the basis of both merit as well as entrance exams. This means that while some universities provide direct admission to candidates on the basis of their marks in graduation, others offer admission on the basis of score obtained by candidates in the entrance exam. Once candidates successfully complete MLibISc course, they can find job opportunities in the areas of archiving, cataloguing, indexing, information architecture, research, metadata architecture, etc. Interested candidates can also choose to pursue MPhil and PhD in library and information science to build a career in the field of research. .
+        </p>
+        <h3>Eligibility</h3>
+        <ul align="left">
+          <li>A minimum of 50%-60% marks in aggregate in Bachelor’s degree.</li>
+          <li>You can apply for this course within an age limit of 20-22 years.</li>
+          <li>
+            Candidates with a graduation degree in Bachelor of Library and Information Science and Bachelor of Library Science will be preferred more.
+          </li>
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ba/"><img src="{% static 'assets/img/course-single.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bcom"><img src="{% static 'assets/img/2.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                    <h4> BCOM</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/blis"><img src="{% static 'assets/img/8.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> BLIS</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+

@@ -1,0 +1,87 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+
+        <img src="{% static 'assets/img/4.png' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>
+          <a href="/register/"> <button class="btn btn-success my-4"> Apply Now</button></a>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">BSW course or Bachelor of Social Work is a professional degree majoring in the field of social work offered at the undergraduate (UG) level. Typically, BSW degree course has a duration of three years that is further divided into six semesters. In some cases, candidates need to mandatorily complete the course within a maximum duration of six years. Candidates can undertake BSW as a full-time course or even pursue it as a Correspondence/ Distance Education course. BSW course comprises of three major parts including foundation course, elective course and fieldwork. Colleges in India offer a BSW degree course in both English and Hindi medium. Some common topics that candidates need to study in a BSW course include Introduction to Social Work, Social Problems in India, Social Work Research & Statistics, Social Work Administration and the likes. Scroll down to know more details on a BSW course including its eligibility criteria, subjects, top colleges, skills required, job profiles and more.
+        </p>
+        <h3>Eligibility</h3>
+        <ul align="left">
+          <li>The aspirants must pass (10+2) Secondary and Higher Secondary from a recognized board in humanities and science background.</li>
+          <li>Candidates belonging to the SC/ST require at least 40% marks at the qualifying examinations.</li>
+          
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/ba/"><img src="{% static 'assets/img/course-single.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bsw"><img src="{% static 'assets/img/BOOSE.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                    <h4> BOSSE</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/mliss"> <img src="{% static 'assets/img/8.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> MLIS</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+

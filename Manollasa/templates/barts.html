@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block body %}
+{% load static %}
+
+  <main id="main">
+    <div class=" text-center container my-5">
+3
+        <img src="{% static 'assets/img/course-single.jpg' %}"
+          style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);" class="  img-fluid my-4"
+          alt="My image"><br>
+     <a href="/register/"> <button class="btn btn-success my-4"> Apply Now</button></a>
+      <div style="grid-column: span 14;">
+        <h3>About course</h3>
+        <p align="left">
+            Bachelor of Arts (BA) is a 3 years undergraduate degree course that focuses on various disciplines like English, History, Political Science, Geography etc. Candidates can pursue a BA general or BA Hons program as per choice and also on the marks obtained at their +2 board exams. BA general program focuses on an overview of primary subjects whereas BA Hons program focuses on a particular specialization. The eligibility criteria to pursue a BA course is securing a minimum of 50% marks in class 10 and class 12 exams. BA admission is based on both entrance and merit.
+        </p>
+        <h3>Eligibility</h3>
+        <ul align="left">
+          <li>Candidates must have completed 10+2 level from a recognised board.</li>
+          <li>Candidates to have a minimum of 50% aggregate marks at the 10+2 level.</li>
+          <li>For SC/ST candidates, several colleges give a 5% mark relaxation in this requirement.</li>
+        </ul>
+
+
+
+        <!-- related cards -->
+        <section id="portfolio" class="section-bg">
+          <h3>Related Courses</h3>
+          <div class="container" data-aos="fade-up">
+            <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bba"><img src="{% static 'assets/img/3.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+                  <div class="portfolio-info">
+                    <h4> BBA</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/bcom"><img src="{% static 'assets/img/2.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                    <h4> BCOM</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                <div class="portfolio-wrap">
+                  <figure>
+                    <a href="/blis"><img src="{% static 'assets/img/8.jpg' %}" class="img-fluid" alt=""></a>
+                  </figure>
+      
+                  <div class="portfolio-info">
+                    <h4> BLIS</h4>
+                    <p>Course</p>
+                  </div>
+                </div>
+              </div>
+
+
+            </div>
+        </section>
+
+      </div>
+  </main>
+
+
+  {% endblock body %}
+
+
+
+
+
+
+
+
